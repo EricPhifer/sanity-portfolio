@@ -12,6 +12,9 @@ import termsConditions from './termsConditions';
 // Components
 import PageLinks from '../components/PageLinks';
 import Projects from '../components/Projects';
+// Service Pages
+import servicesites from './servicesites';
+import servicetags from './servicetags';
 
 export default createSchema({
   name: 'default',
@@ -27,5 +30,8 @@ export default createSchema({
     // Components
     PageLinks,
     Projects,
+    // Service Pages
+    servicesites,
+    servicetags
   ]),
 })
