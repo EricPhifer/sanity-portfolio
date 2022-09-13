@@ -1,4 +1,4 @@
-import { AiOutlineHome as icon } from 'react-icons/ai';
+import { GrBlog as icon } from 'react-icons/gr';
 
 export default {
   name: 'blogpost',
@@ -27,11 +27,27 @@ export default {
         hotspot: true
       } 
     },
+      {
+      name: 'alt',
+      title: 'Alternative Text for Image',
+      type: 'string',
+    },
     { 
       name: 'content', 
       title: 'Content', 
       type: 'array',
       of: [{type: 'block'}]
+    },
+    {
+      name: 'tags',
+      title: 'Tags',
+      type: 'array',
+      of: [
+        {
+            type: 'reference',
+              to: [{ type: 'servicetags' }]
+        }
+      ]
     }
   ],
 }
