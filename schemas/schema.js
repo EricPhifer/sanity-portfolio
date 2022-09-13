@@ -15,6 +15,8 @@ import Projects from '../components/Projects';
 // Service Pages
 import servicesites from './servicesites';
 import servicetags from './servicetags';
+// Blog Pages
+import blogpost from './blogpost';
 
 export default createSchema({
   name: 'default',
@@ -32,6 +34,8 @@ export default createSchema({
     Projects,
     // Service Pages
     servicesites,
-    servicetags
+    servicetags,
+    // Blog Pages
+    blogpost
   ]),
 })
