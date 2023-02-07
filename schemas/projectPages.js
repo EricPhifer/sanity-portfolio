@@ -1,8 +1,8 @@
 import { BsSegmentedNav as icon } from 'react-icons/bs';
 
 export default {
-    name: 'navigation',
-    title: 'Navigation',
+    name: 'projectPages',
+    title: 'Project Pages',
     type: 'document',
     icon,
     fields: [
