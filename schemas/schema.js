@@ -17,6 +17,8 @@ import servicesites from './servicesites';
 import servicetags from './servicetags';
 // Blog Pages
 import blogpost from './blogpost';
+// Project Page Navigation
+import projectPages from './projectPages';
 
 export default createSchema({
   name: 'default',
@@ -36,6 +38,8 @@ export default createSchema({
     servicesites,
     servicetags,
     // Blog Pages
-    blogpost
+    blogpost,
+    // Project Navigation
+    projectPages
   ]),
 })
