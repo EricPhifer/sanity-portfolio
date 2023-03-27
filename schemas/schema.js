@@ -1,6 +1,3 @@
-import createSchema from 'part:@sanity/base/schema-creator'
-import schemaTypes from 'all:part:@sanity/base/schema-type'
-
 // Layout
 import footer from './footer';
 import navigation from './navigation';
@@ -20,9 +17,7 @@ import blogpost from './blogpost';
 // Project Page Navigation
 import projectPages from './projectPages';
 
-export default createSchema({
-  name: 'default',
-  types: schemaTypes.concat([
+export default [
     // Layout Content
     navigation,
     footer,
@@ -41,5 +36,4 @@ export default createSchema({
     blogpost,
     // Project Navigation
     projectPages
-  ]),
-})
+]
