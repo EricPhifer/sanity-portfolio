@@ -16,6 +16,8 @@ import servicetags from './servicetags';
 import blogpost from './blogpost';
 // Project Page Navigation
 import projectPages from './projectPages';
+// Social Media
+import socialmedia from './socialmedia';
 
 export default [
     // Layout Content
@@ -26,6 +28,8 @@ export default [
     // Privacy Policy & Terms
     privacyPolicy,
     termsConditions,
+    // Social Media
+    socialmedia,
     // Components
     PageLinks,
     Projects,
