@@ -22,7 +22,7 @@ export default {
         {
           name: 'alt',
           title: 'Alternative Text',
-          type: 'text',
+          type: 'string',
         },
         {
           name: 'sitelink',
