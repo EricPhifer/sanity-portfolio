@@ -19,14 +19,6 @@ export default {
             type: 'string'
         },
         { 
-            name: 'desktopcontainer', 
-            title: 'Desktop Image Container', 
-            type: 'image',
-            options: {
-                hotspot: true
-            } 
-        },
-        { 
             name: 'desktopimage', 
             title: 'Desktop Image of the Website', 
             type: 'image',
@@ -40,14 +32,6 @@ export default {
             type: 'string'
         },
         { 
-            name: 'tabletcontainer', 
-            title: 'Tablet Image Container', 
-            type: 'image',
-            options: {
-                hotspot: true
-            } 
-        },
-        { 
             name: 'tabletimage', 
             title: 'Tablet Image of the Website', 
             type: 'image',
@@ -59,14 +43,6 @@ export default {
             name: 'tabletalt', 
             title: 'Alt Phrase for Tablet View', 
             type: 'string'
-        },
-        { 
-            name: 'mobilecontainer', 
-            title: 'Mobile Image Container', 
-            type: 'image',
-            options: {
-                hotspot: true
-            } 
         },
         { 
             name: 'mobileimage', 
