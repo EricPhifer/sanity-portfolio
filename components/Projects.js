@@ -14,6 +14,11 @@ export default {
             type: 'string'
         },
         { 
+            name: 'githublink', 
+            title: 'Link to the Code', 
+            type: 'string'
+        },
+        { 
             name: 'desktopcontainer', 
             title: 'Desktop Image Container', 
             type: 'image',
