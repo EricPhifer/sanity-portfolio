@@ -19,6 +19,14 @@ export default {
             type: 'string'
         },
         { 
+            name: 'logo', 
+            title: 'Mobile Logo for the Business', 
+            type: 'image',
+            options: {
+                hotspot: true
+            } 
+        },
+        { 
             name: 'desktopimage', 
             title: 'Desktop Image of the Website', 
             type: 'image',
