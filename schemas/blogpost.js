@@ -32,6 +32,11 @@ export default {
       title: 'Alternative Text for Image',
       type: 'string',
     },
+      {
+      name: 'source',
+      title: 'Source Info for Image',
+      type: 'string',
+    },
     { 
       name: 'content', 
       title: 'Content', 
