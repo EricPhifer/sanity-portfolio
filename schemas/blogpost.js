@@ -20,6 +20,11 @@ export default {
       }
     },
     {
+      name: 'release',
+      title: 'Date of Release',
+      type: 'datetime',
+    },
+    {
       name: 'image', 
       title: 'Post Image', 
       type: 'image',
