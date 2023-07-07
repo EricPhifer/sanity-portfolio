@@ -13,6 +13,7 @@ import Projects from '../components/Projects';
 import servicesites from './servicesites';
 import servicetags from './servicetags';
 // Blog Pages
+import bloghome from './bloghome';
 import blogpost from './blogpost';
 // Project Page Navigation
 import projectPages from './projectPages';
@@ -25,6 +26,7 @@ export default [
     footer,
     // Homepage
     homepage,
+    bloghome,
     // Privacy Policy & Terms
     privacyPolicy,
     termsConditions,
