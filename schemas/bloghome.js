@@ -19,5 +19,15 @@ export default {
             hotspot: true
           } 
         },
+        {
+          name: 'alt',
+          title: 'Alternative Text for Image',
+          type: 'string',
+        },
+        {
+          name: 'source',
+          title: 'Source for Image',
+          type: 'string',
+        },
     ],
   }
