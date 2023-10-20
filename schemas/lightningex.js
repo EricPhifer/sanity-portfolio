@@ -2,8 +2,8 @@
 import { TbSection as icon } from 'react-icons/tb';
 
 export default {
-    name: 'bundles',
-    title: 'Bundles',
+    name: 'lightningex',
+    title: 'Lightning Examples',
     type: 'document',
     icon,
     fields: [
@@ -33,23 +33,13 @@ export default {
           type: 'string',
       },
       {
-          name: 'source',
-          title: 'Credit to the Creator or Owner of the Image',
-          type: 'string',
-      },
-      {
-        name: 'sourcelink',
-        title: 'Link to Image or Creators Work',
-        type: 'string',
-      },
-      {
           name: 'link',
-          title: 'Intake form link for product purchase',
+          title: 'Intake form link for product purchase (CTA)',
           type: 'string',
       },
       {
           name: 'examplelink',
-          title: 'Link to see examples of this bundle',
+          title: 'Link to see the example of this bundle',
           type: 'string',
       },
       {
@@ -58,7 +48,6 @@ export default {
           description: 'This should start with https:// and end with a top level domain (e.g. .com, .net, etc)',
           type: 'string',
       },
-     
     ],
     preview: {
         select: {

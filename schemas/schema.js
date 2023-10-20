@@ -20,6 +20,7 @@ import blogpost from './blogpost';
 import projectPages from './projectPages';
 // Social Media
 import socialmedia from './socialmedia';
+import lightningex from './lightningex';
 
 export default [
     // Layout Content
@@ -40,6 +41,7 @@ export default [
     servicesites,
     servicetags,
     bundles,
+    lightningex,
     // Blog Pages
     blogpost,
     // Project Navigation
