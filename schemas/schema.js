@@ -12,6 +12,7 @@ import Projects from '../components/Projects';
 // Service Pages
 import servicesites from './servicesites';
 import servicetags from './servicetags';
+import bundles from './bundles';
 // Blog Pages
 import bloghome from './bloghome';
 import blogpost from './blogpost';
@@ -38,6 +39,7 @@ export default [
     // Service Pages
     servicesites,
     servicetags,
+    bundles,
     // Blog Pages
     blogpost,
     // Project Navigation
