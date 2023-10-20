@@ -12,6 +12,7 @@ import Projects from '../components/Projects';
 // Service Pages
 import servicesites from './servicesites';
 import servicetags from './servicetags';
+import lightningex from './lightningex';
 import bundles from './bundles';
 // Blog Pages
 import bloghome from './bloghome';
@@ -20,7 +21,6 @@ import blogpost from './blogpost';
 import projectPages from './projectPages';
 // Social Media
 import socialmedia from './socialmedia';
-import lightningex from './lightningex';
 
 export default [
     // Layout Content
